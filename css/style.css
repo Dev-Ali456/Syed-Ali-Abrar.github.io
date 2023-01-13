@@ -970,7 +970,7 @@ min-height: 9vh;
     header{
 
       width: 100%;
-      height: 70vh;
+      height: 50vh;
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -984,7 +984,7 @@ min-height: 9vh;
       justify-content: center;
       align-items: center;
       width: 50%;
-      height: 70vh;
+      height: 50vh;
         gap: 6px;
   }
   .head-left h2{
@@ -1036,7 +1036,7 @@ min-height: 9vh;
       justify-content: center;
       align-items: center;
       width: 50%;
-      height: 70vh;
+      height: 50vh;
       clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
       background-color: cadetblue;
       z-index: -1;
@@ -1044,8 +1044,8 @@ min-height: 9vh;
   }
   .head-right img{
 
-      width: 180px;
-      height: 580px;
+      width: 160px;
+      height: 500px;
     object-fit: contain;
     object-position: right bottom;
       border-bottom-left-radius: 40px;
@@ -1122,7 +1122,7 @@ min-height: 9vh;
   }
    section{
 
-    height: 130vh;
+    height: 115vh;
     
   } 
   .title{
@@ -1330,6 +1330,12 @@ min-height: 9vh;
             height: 100vh;
             border: 1px solid transparent;
           }
+         #cont-1{
+          
+          display: flex;
+            flex-direction: column-reverse;
+          height: 70vh;
+         }
      
           .ab-img{
             width: 100%;
