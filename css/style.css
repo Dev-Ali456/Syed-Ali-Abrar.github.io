@@ -306,7 +306,7 @@ section{
   z-index: 2;
   color: #551A8B;
   box-shadow: 0 4px 4px 0 gray;
-   transition: transform ease-in-out .5s;
+   transition: transform ease-in-out .3s;
 }
 .skl-list a:hover{
 
@@ -1118,23 +1118,23 @@ min-height: 9vh;
   
   main{
 
-    padding: 10px 10px;
+    padding: 0px 10px;
   }
    section{
 
-    height: 115vh;
+    height: 90vh;
     
   } 
   .title{
 
     width: 100%;
-    height: 15vh !important;
+    height: 10vh !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'Fira Sans', sans-serif;
-    gap: 10px;
+    
   }
   .title h2{
     
@@ -1156,7 +1156,7 @@ min-height: 9vh;
 .container{
 
   border: 1px solid transparent;
-  height: 100vh;
+  height: 80vh;
     display: flex;
     flex-direction: column;
   gap: 15px;
@@ -1327,7 +1327,7 @@ min-height: 9vh;
     
           .abt{
 
-            height: 100vh;
+            height: 70vh;
             border: 1px solid transparent;
           }
          #cont-1{
@@ -1474,7 +1474,64 @@ min-height: 9vh;
     
   
   }
+@media screen and (max-width: 468px) {
+    
+          .skl{
 
+            height: 80vh;
+
+          }
+         #cont-2{
+          
+          height: 70vh !important;
+         }
+ .skl-abttl h1{
+
+      font-size: 15px;
+    }
+    .skl-ab{
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      height: 40vh;
+      gap: 2rem;
+    }
+    .skl-ab2{
+      
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: top !important;
+      width: 50%;
+      height: 30vh;
+      gap: 2rem;
+    }
+    .skl-list{
+
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: center;
+      align-items: center;
+      gap:4px;
+    }
+    .skl-list a{
+    
+
+      font-size: 15px;
+      padding: 4px 10px;
+      border: 2px solid transparent;
+      border-radius: 40px;
+      margin-right: 1rem;
+      z-index: 2;
+   
+     text-align: center;
+    }
+}
   /*--====================Responsive Design========================--*/
   @media screen and (max-width: 1100px) {
     
@@ -1501,11 +1558,11 @@ min-height: 9vh;
   @media screen and (max-width: 768px) {
     
   
-    .design h2{
+    
+  .design h2{
   
       font-size: 1.2rem;
     }
-  
     .Design{
 
       background: white;
@@ -1524,7 +1581,15 @@ min-height: 9vh;
     height: 70vh !important;
   }
     
-  }
+  } 
+@media screen and (max-width: 430px) {
+    
+  
+    
+   section.dsgn {
+    height: 60vh !important;
+}
+}
   /*--====================Responsive contact========================--*/
   @media screen and (max-width: 1100px) {
     .box-ft{
@@ -1633,14 +1698,15 @@ min-height: 9vh;
       
     }
     @media screen and (max-width: 500px) {
-      .box-ft{
       
-          padding-top: 4vh;
-        }
         .contac{
 
-          height: 100vh;
+          height: 80vh;
         }
+     .box-ft {
+    padding-top: 0vh;
+    height: 60vh !important;
+}
         form{
       
           width: 290px;
@@ -1720,15 +1786,19 @@ min-height: 9vh;
   
   @media screen and (max-width: 528px) {
     
-    .footer{
-      width: 100%;
-      height: 20vh;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
-      color: #333333;
-    }
+    
+   .footer {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    text-align: left !important;
+    gap: 10px;
+    padding-left: 8rem;
+    color: #333333;
+}
     .footer h1{
   
       font-size: 12px;
